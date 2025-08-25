@@ -1,0 +1,16 @@
+{
+  "users": {
+    "zsombor": {
+      "roles": ["admin"]      
+    },
+    "bob": {
+      "roles": ["employee", "billing"]
+    },
+     "sunil": {
+      "roles": ["test"]      
+    },
+    "eve": {
+      "roles": ["customer"]    
+    }
+  }
+}
