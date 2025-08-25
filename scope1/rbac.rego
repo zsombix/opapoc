@@ -19,5 +19,5 @@ user_is_admin {
 	some i
 
 	# "admin" is the `i`-th element in the user->role mappings for the identified user.
-	data.users[input.user].roles[i] == "admin"
+	data.scope1.users[input.user].roles[i] == "admin"
 }
