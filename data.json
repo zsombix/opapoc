@@ -7,7 +7,7 @@
       "roles": ["employee", "billing"]
     },
      "sunil": {
-      "roles": ["guest"]      
+      "roles": ["unknown"]      
     },
     "eve": {
       "roles": ["customer"]    
