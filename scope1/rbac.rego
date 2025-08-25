@@ -1,7 +1,7 @@
 package app.rbac
 
 # By default, deny requests
-default allow = true
+default allow = false
 
 # Allow admins to do anything
 allow {
