@@ -8,7 +8,7 @@ allow {
 	user_is_admin
 }
 
-# Allow bob to do anything
+# Allow bob to do anything testcomment
 allow {
 	input.user == "bob"
 }
