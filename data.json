@@ -4,25 +4,13 @@
       "roles": ["admin"]      
     },
     "bob": {
-      "roles": ["employee", "billing"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
+      "roles": ["employee", "billing"]
     },
      "sunil": {
-      "roles": ["guest"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
+      "roles": ["guest"]      
     },
     "eve": {
-      "roles": ["customer"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
+      "roles": ["customer"]    
     }
   }
 }
