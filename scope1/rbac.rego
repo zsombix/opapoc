@@ -1,11 +1,13 @@
 package app.rbac
 
+import data.isadmin
+
 # By default, deny requests
 default allow = false
 
 # Allow admins to do anything
 allow {
-	user_is_admin
+	isadmin.user_is_admin
 }
 
 # Allow bob to do anything test
