@@ -1,13 +1,13 @@
 package app.rbac
 
-import data.isadmin
+import data.isadmin1
 
 # By default, deny requests
 default allow = false
 
 # Allow admins to do anything
 allow {
-	isadmin.user_is_admin with data.users as data.scope1.users
+	isadmin1.user_is_admin with data.users as data.scope1.users
 }
 
 # Allow bob to do anything test
