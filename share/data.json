@@ -1,0 +1,16 @@
+{
+  "animals":{
+    "zebra": {
+      "habitat": "savanna",
+      "diet": "herbivore"
+    },
+    "lion": {
+      "habitat": "grassland",
+      "diet": "carnivore"
+    },
+    "elephant": {
+      "habitat": "forest",
+      "diet": "herbivore"
+    }
+  }
+}
